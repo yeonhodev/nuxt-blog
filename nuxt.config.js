@@ -16,13 +16,7 @@ module.exports = {
         content: 'nuxtjs, nuxt, node, nodejs, express, expressjs, axios, scss, sass, google'
       }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900'
-      }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   // variables in "env" are use client & server side. ex) const url = process.env.baseUrl
   env: {

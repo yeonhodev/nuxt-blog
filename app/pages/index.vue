@@ -2,21 +2,8 @@
   <section id="container">
     <div>
       <app-logo/>
-      <h1 class="title">Nuxt + Express</h1>
-      <ul>
-        <li>
-          <h2 class="subtitle">Nuxt.js</h2>
-        </li>
-        <li>
-          <h2 class="subtitle">Express.js</h2>
-        </li>
-        <li>
-          <h2 class="subtitle">Scss</h2>
-        </li>
-        <li>
-          <h2 class="subtitle">Redis Session</h2>
-        </li>
-      </ul>
+      <h1 class="title">Nuxt Blog</h1>
+      <span class="description">Entire flat</span>
       <div class="links">
         <nuxt-link 
           to="/posts" 
@@ -25,17 +12,6 @@
     </div>
   </section>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  },
-  mounted() {}
-}
-</script>
 
 <style lang="scss" scoped>
 @import '~assets/scss/index';
@@ -58,6 +34,11 @@ export default {
     font-size: 100px;
     color: #35495e;
     letter-spacing: 1px;
+  }
+
+  .description {
+    font-size: 0.8em;
+    font-weight: 700;
   }
 
   .subtitle {
