@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
-    <h1>Hello, world!</h1>
-  </div>
+  <header>
+    <span>Nuxt Blog</span>
+  </header>
 </template>
 
 <style lang="scss" scoped>
