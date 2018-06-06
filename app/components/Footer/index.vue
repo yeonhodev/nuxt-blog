@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
-    <h1>Hello, world!</h1>
-  </div>
+  <footer>
+    <span>2018 Copyright © Developer</span>
+  </footer>
 </template>
 
 <style lang="scss" scoped>

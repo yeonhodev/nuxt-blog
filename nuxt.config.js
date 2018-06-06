@@ -44,7 +44,13 @@ module.exports = {
     generate: false, // Enable me when using nuxt generate
     exclude: ['/admin/**']
   },
-  plugins: ['~/plugins/axios'],
+  plugins: [
+    '~/plugins/axios',
+    {
+      src: '~/plugins/theme',
+      ssr: false
+    }
+  ],
   build: {
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
